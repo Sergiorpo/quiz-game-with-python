@@ -20,7 +20,7 @@ if respuesta == "A" or "a":
 if respuesta == "B" or "b":
     puntuacion += 1
 
-elif respuesta == "C" or "c":
+if respuesta == "C" or "c":
     puntuacion += 0
 
 #########Segunda pregunta
@@ -98,7 +98,7 @@ if respuesta == "A" or "a":
 if respuesta == "B" or "b":
     puntuacion += 0
 
-elif respuesta == "C" or "c":
+if respuesta == "C" or "c":
     puntuacion += 0
 
 #########Sexta pregunta
@@ -117,7 +117,7 @@ if respuesta == "A" or "a":
 if respuesta == "B" or "b":
     puntuacion += 0
 
-elif respuesta == "C" or "c":
+if respuesta == "C" or "c":
     puntuacion += 0
 
 print("La puntuacion de {} es de {}".format(nombre_jugador,puntuacion))
