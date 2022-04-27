@@ -8,21 +8,21 @@ nombre_jugador = input("¿Cual es tu nombre?\n" )
 ######### FUNCIONES #######
 def funcionA():
     global puntuacion
-    if pregunta == "A" and "a":
+    if pregunta == "A" or pregunta == "a":
         puntuacion += 1
     else:
         puntuacion += 0
 
 def funcionB():
     global puntuacion
-    if pregunta == "B" and "b":
+    if pregunta == "B" or pregunta == "b":
         puntuacion += 1
     else:
         puntuacion += 0
 
 def funcionC():
     global puntuacion
-    if pregunta == "C" and "c":
+    if pregunta == "C" or pregunta == "c":
         puntuacion += 1
     else:
         puntuacion += 0
@@ -63,3 +63,5 @@ while pregunta != "A" and pregunta != "B" and pregunta != "C" and pregunta != "a
 funcionA()
 
 print("La puntuacion de {} es de {}".format(nombre_jugador,puntuacion))
+fin =input("Presione cualquier tecla para finalizar.")
+fin = exit()
